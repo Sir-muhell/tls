@@ -806,12 +806,12 @@ ol {
   color: #ffffff;
 }
 
-.price-item h4 {
+/* .price-item h4 {
   color: #171822;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 26px;
-}
+} */
 
 .price-item .pi-price {
   padding-top: 16px;
@@ -819,8 +819,8 @@ ol {
   margin-bottom: 38px;
 }
 
-.price-item .pi-price h2 {
-  font-size: 60px;
+.price-item .pi-price h4 {
+  font-size: 45px;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -2521,12 +2521,13 @@ ol {
   border: 2px solid #d49c24;
   border-radius: 30px;
 }
- 
 
-.product{
+.product {
   @font-face {
-    font-family: 'Product-sans';
+    font-family: "Product-sans";
     font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    src: local("Open Sans"), local("OpenSans"),
+      url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2)
+        format("woff2");
   }
 }
